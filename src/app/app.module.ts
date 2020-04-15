@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { FormsModule } from '@angular/forms';
 import { TestComponent } from './test/test.component';
+import { GitTestComponent } from './git-test/git-test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListComponent,
-    TestComponent
+    TestComponent,
+    GitTestComponent
   ],
   imports: [
     BrowserModule,
